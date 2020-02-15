@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>WORK</title>
+<style type="text/css">
+<!--
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP');
+ font-family: 'Noto Serif JP', sans-serif;
+
+
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono');
+div#all {
+	padding-top: 0;
+	width: 100％;
+	margin: 0 auto;
+	 
+} 
+
+#copyright {
+	font-family: 'Ubuntu Mono', monospace;
+	background-color: rgba(200,200,200,0.4);
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	text-align: right;
+	padding-top: 12px;
+	
+}
+
+#main {
+	margin: 0px;
+	height:320px;
+	margin: 0px;
+	padding: 0px;
+	clear:both
+	
+}
+
+#dropmenu {
+	list-style-type: none;
+	margin:0 0 0 0;
+	height: 83px;
+	  display: flex;
+	float: left;
+	width:800px;
+	background-color: rgba(240,240,240,0.5);
+	
+	
+}
+
+.animsition {
+	width:calc(100vh -30);
+
+	float: none;
+	
+}
+
+#dropmenu li {
+
+font-family: 'Ubuntu Mono', monospace;
+	position: relative;
+	width: 200px;
+	height: 85px;
+	
+	margin: 0 auto 0 0;
+	padding: 0px;
+	text-align: center;
+	padding: 0px;
+	float: none;
+ 
+ 
+	 
+}
+
+
+#dropmenu ul {
+	
+	font-family: 'Ubuntu Mono', monospace;
+	height: 83px;
+	padding-left: 0px;
+	
+	
+
+}
+
+#dropmenu li a {
+	display: block;
+	margin: 0;
+	padding: 15px 0px 20px 0px;
+	color: #000000;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 1;
+	text-decoration: none;
+}
+
+#dropmenu li ul {
+	list-style: none;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	margin: 0;
+	padding: 0;
+	
+}
+
+#dropmenu li:last-child ul {
+	width: 100%
+}
+
+#dropmenu li ul li {
+font-family: 'Ubuntu Mono', monospace;
+	overflow: hidden;
+	width: 200px;
+	height: 0;
+	color: #000000;
+	transition: .2s;
+
+}
+
+#dropmenu li ul li a {
+	padding: 13px 13px;
+	background-color: rgba(240,240,240,0.5);
+	text-align: right;
+	font-size: 12px;
+	font-weight: normal;
+	/*border-top-color: #666666;
+	border-bottom-color: #333333;*/
+}
+
+#dropmenu li:hover>a {
+	
+	color: #ffffff;
+	background-color: #94ECFE;	/*border-bottom-color: #333333;*/
+}
+
+}
+#dropmenu>li:hover>a {
+	border-radius: 3px 3px 0 0;
+	font-size: 9px;
+}
+
+#dropmenu li:hover ul li {
+	overflow: visible;
+	height: 35px;
+	border-top: 1px solid #ffffff;
+	border-bottom: 1px solid #ffffff;
+	border-top-color: #333333;
+	border-left-color: #FFFFFF;
+	border-bottom-color: #333333;
+}
+
+#dropmenu li:hover ul li:first-child {
+	border-top: 0;
+	margin-top:0;
+}
+
+#dropmenu li:hover ul li:last-child {
+	border-bottom: 0;
+}
+
+#dropmenu li:hover ul li:last-child a {
+	border-radius: 0 0 3px 3px;
+}
+
+
+
+a:link {
+	color: #666666;
+}
+
+a:visited {
+	color: #666666;
+}
+
+a:hover {
+	color: #333333;
+}
+
+a:active {
+	color: #666666;
+}
+
+
+.title {
+	position: fixed;
+	bottom: 0;
+	font-size:30px;
+	border-bottom-color: #000000;
+	border-bottom-width: thin;
+	border-bottom-style: dotted;
+	text-align:right;
+	margin-right: 10px;
+	width: 100%;
+	padding-right: 10px;
+	background-color: rgba(200,200,200,0.4);
+}
+
+ 
+
+.title:after {
+	position: absolute;
+	top: 100%;
+	width: 560px;
+	height: 4px;
+	
+	background-color: #000000;
+	left: 50%;
+}
+
+#main .stage {
+	height: 300px;
+	background-color: #000000;
+}
+
+
+html {
+	position: relative;
+	min-height: 100%;
+	scroll-behavior: smooth;
+}
+.mg-right{
+    margin-right : 70px;
+}
+
+.mg-left{
+    margin-left : 70px;
+}
+
+.coment{
+	font-size: 15px;
+	color: #999999;	
+	padding-left: 20px;
+}
+
+h2{
+	padding-left: 100px;
+	border-bottom-style: ridge;
+	padding-top: 10x;
+	color: #666666;
+	clear:both;
+	font-family: 'Ubuntu Mono', monospace;
+}
+h1{
+	padding-left: 70px;
+	border-bottom-style: double;
+	padding-top: 80px;
+	clear:both;
+	font-family: 'Ubuntu Mono', monospace;
+}
+
+.img_wrap{
+  border: 1px solid #ddd;
+  width: 250px;
+  height: 180px;
+  margin: 10px 0px 20px 30px;
+ 
+  transition-duration: 0.5s;
+  border-radius: 10%;
+  float:left;
+  
+  overflow:		hidden;
+	
+	position:		relative;	/* 相対位置指定 */
+  
+ 
+}
+a{
+text-decoration: none;
+}
+.img_wrap img{
+  width: 100%;
+  cursor: pointer;
+  border-radius: 10%;
+}
+.img_wrap:hover{
+  box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+  transform: translateY(-2px);
+ /* transform: translateX(-1px);*/
+  transition-duration: 0.5s;
+ 
+}
+.img_wrap .caption {
+	font-size:		130%;
+	text-align: 		center;
+	padding-top:		80px;
+	color:			#fff;
+}
+.img_wrap .mask {
+	width:			100%;
+	height:			100%;
+	position:		absolute;	/* 絶対位置指定 */
+	top:			2px;
+	left:			-252px;
+	opacity:		0;	/* マスクを表示しない */
+	background-color:	rgba(0,0,0,0.5);	/* マスクは半透明 */
+	-webkit-transition:	all 0.2s ease;
+	transition:		all 0.2s ease;
+}
+.img_wrap:hover .mask {
+	opacity:		1;	/* マスクを表示する */
+}
+
+.img_wrap .caption {
+	font-size:		130%;
+	text-align: 		center;
+	color:			#fff;
+}
+.img_wrap .mask {
+	width:			100%;
+	height:			100%;
+	position:		absolute;
+	top:			0;
+	left:			0;
+	
+}
+.text-style{
+	
+	font-family: 'Ubuntu Mono', monospace;
+	
+}
+#top{
+	text-align: right;
+	clear:both;
+	font-size:17px;
+	padding:0px;
+	color:#000000;
+	
+	
+}
+
+</style>
+</head>
+<body>
+<div id="all"></div>
+<div class="animsition">
+  <ul id="dropmenu">
+    <li class="a"><a href="index.html"> <font size="35">About</font></font> </a> </li>
+    <li id = "apuri"><a href="#"><font
+						size="35">plogram</font></font></a>
+      <ul>
+        <li id = ><a href="work.html">アプリ</a></li>
+        <li><a href="work.html#game">ゲーム</a></li>
+        <li><a href="work.html#web">webサイト</a></li>
+      </ul>
+    </li>
+    <li><a href="#"><font
+						size="35">3D</font></font></a>
+      <ul>
+        <li><a href="work.html#3d">3dオブジェクト</a></li>
+        <li><a href="work.html#mmd">mmd</a></li>
+      </ul>
+    </li>
+    <li><a href="#"> <font size="35">2D</font></font> </a>
+      <ul>
+        <li><a href="work.html#ilust">イラスト</a></li>
+        <li><a href="work.html#mosya">模写</a></li>
+        <li><a href="work.html#line">lineスタンプ</a></li>
+      </ul>
+    </li>
+  </ul>
+</div>
+<div id="main">
+  <h1 id ="tops">プログラミング</h1>
+  <h2>アプリ開発<span class="coment">使用言語:C#/ソフト:VisualStudio</span></h2>
+  <a href="#line">
+  <div id = "top">▼</div>
+  </a>
+  <div class="img_wrap"> <img src="img/pro_0-01.png" alt="3dImage_0"> <a href="https://youtu.be/BcQBJAubnxk" target="_blank">
+    <div class="mask" title="クリックでyoutubeへ"/>
+    <div class="caption"> <span class="text-style"><font size="5.5"><b>電卓</b></font><br>
+      <font size="3.5">使用言語:C言語<br>
+      使用ソフト:VisalStudio</font></span> </div>
+    </a> </div>
+</div>
+<div class="img_wrap"> <img src="img/pro_1-01.png" > <a href="https://youtu.be/lklnwXoFhX0" target="_blank">
+  <div class="mask" title="クリックでyoutubeへ"/>
+  <div class="caption"> <span class="text-style"><font size="5.5"><b>アバター制作アプリ</b></font><br>
+    <font size="3.5">使用言語:C言語<br>
+    使用ソフト:VisalStudio</font></span></div>
+  </a> </div>
+</div>
+<div class="img_wrap"> <img src="img/pro_3-01.png"> <a href="https://youtu.be/EZCumukQb3I" target="_blank">
+  <div class="mask" title="クリックでyoutubeへ"/>
+  <div class="caption"> <span class="text-style"><font size="5.5"><b>天気予報アプリ</b></font><br>
+    <font size="3.5">使用言語:C言語<br>
+    使用ソフト:VisalStudio</font></span></div>
+  </a> </div>
+</div>
+<h2 id="game">ゲーム開発<span class="coment">使用言語:C#/ソフト:Unity</span></h2>
+<a href="#tops">
+<div id = "top">▲</div>
+</a>
+<div class="img_wrap"> <img src="img/pro_2-01.png" >
+  <div class="mask">
+    <div class="caption"> 格闘ゲーム<br>
+      制作中 </div>
+  </div>
+</div>
+<div class="img_wrap"> <img src="img/game_2-01.png"> <a href="https://youtu.be/66knifq1I3Y" target="_blank">
+  <div class="mask" title="クリックでyoutubeへ"/>
+  <div class="caption"> <span class="text-style"><font size="5.5"><b>Flappy Azarashi</b></font><br>
+    <font size="3.5">使用言語:C言語<br>
+    使用ソフト:Unity</font></span></div>
+  </a> </div>
+</div>
+<div class="img_wrap"> <img src="img/game_3-01.png"> <a href="https://youtu.be/DLfygSAULMc" target="_blank">
+  <div class="mask" title="クリックでyoutubeへ"/>
+  <div class="caption"> <span class="text-style"><font size="5.5"><b>Candy Dozer</b></font><br>
+    <font size="3.5">使用言語:C言語<br>
+    使用ソフト:Unity</font></span></div>
+  </a> </div>
+</div>
+<div class="img_wrap"> <img src="img/game_1-01.png"> <a href="https://youtu.be/y0NuAOW-CPw" target="_blank">
+  <div class="mask" title="Illumball"/>
+  <div class="caption"> <span class="text-style"><font size="5.5"><b>Illumball</b></font><br>
+    <font size="3.5">使用言語:C言語<br>
+    使用ソフト:Unity</font></span></div>
+  </a> </div>
+</div>
+<h2 id="web">webサイト制作<span class="coment">使用ソフト:DreamWeavar/AdobeFireWorks</span></h2>
+<a href="#tops">
+<div id = "top">▲</div>
+</a>
+<div class="img_wrap"> <img src="img/web-01.png">
+  <div class="mask"> <a href="img/web_sample1-13.png" data-lightbox="web"data-title="旧ポートフォリオサイト(2/2)"> <a href="img/web_sample-12.png" data-lightbox="web"data-title="仕事のサイト(1/2)">
+    <div class="caption"> <span class="text-style"><font size="5.5"><b>webサイト</b></font><br>
+      <font size="3.5">使用ソフト:Dreamweaver/<br>
+      AdobeFireworks<br>
+      </font></span> </div>
+    </a> </div>
+</div>
+<h1>3D</h1>
+<h2 id="3d">3Dオブジェクト<span class="coment">使用ソフト:Blender</span></h2>
+<a href="#tops">
+<div id = "top">▲</div>
+</a>
+<div class="img_wrap"> <img src="img/3d_2-01.png" >
+  <div class="mask"> <a href="img/3d_sample0-08.png" data-lightbox="3d"data-title="人体モデル(2/2)"> <a href="img/3d_sample-07.png" data-lightbox="3d"data-title="人体モデル(1/2)">
+    <div class="caption"> <span class="text-style"><font size="5.5"><b>人体モデル</b></font><br>
+      <font size="3.5">使用ソフト:Blender</font></span></div>
+    </a> </div>
+  </a> </div>
+</div>
+<div class="img_wrap"> <img src="img/3d_1-01.png">
+  <div class="mask"> <a href="img/3d_sample1-07.png" data-lightbox="3d_o"data-title="株式会社リクルート様よりイメージキャラクター｢SUUMO｣(4/4)"> <a href="img/3d_sample_2-13-01-01-11.png" data-lightbox="3d_o"data-title="ひまわり(4/3)"> <a href="img/3d_sample-09.png" data-lightbox="3d_o"data-title="ハロウィンかぼちゃ(4/2)"> <a href="img/3d_sample-15-10.png" data-lightbox="3d_o"data-title="風景(4/1)">
+    <div class="caption"> <span class="text-style"><font size="5.5"><b>その他モデル</b></font><br>
+      <font size="3.5">使用ソフト:Blender</font></span></div>
+    </a> </div>
+</div>
+</div>
+<h2 id="mmd">MMD(ミクミクダンス)制作<span class="coment">使用ソフト:Blender/MMD/PMDEditor</span></h2>
+<a href="#tops">
+<div id = "top">▲</div>
+</a>
+<div class="img_wrap"> <img src="img/mmd_0-01.png"> <a href="https://www.youtube.com/watch?v=X-ZfStRdfOw" target="_blank">
+  <div class="mask" title="クリックでyoutubeへ"/>
+  <div class="caption"> <span class="text-style"><font size="5.5"><b>MMD</b></font><br>
+    <font size="3.5">使用ソフト:Blender/<br>
+    MMD/PMDEditor</font></span> </div>
+  </a> </div>
+</div>
+<h1 >2D</h1>
+<h2 id="ilust">イラスト制作<span class="coment">使用ソフト:AdobeIllustlatorCS5/ClipStudio</span></h2>
+<a href="#tops">
+<div id = "top">▲</div>
+</a>
+<div class="img_wrap"><img src="img/2d_1-01.png">
+  <div class="mask"> <a href="img/2d_sample0-05.png" data-lightbox="2d"data-title="サキュバス(2/2)"> <a href="img/2d_sample-05.png" data-lightbox="2d"data-title="エルフ(2/1)">
+    <div class="caption"> <span class="text-style"><font size="5.5"><b>2dイラスト</b></font><br>
+      <font size="3.5">使用ソフト:ClipStudio</font></span> </div>
+    </a> </div>
+</div>
+<div class="img_wrap"> <img src="img/2d_0-01.png" >
+  <div class="mask"> <a href="img/dehulo_sample-16.png" data-lightbox="deformed"data-title="デフォルメキャラクター(2/2)"> <a href="img/dehulo_sample1-16.png" data-lightbox="deformed"data-title="デフォルメキャラクター(2/1)">
+    <div class="caption"> <span class="text-style"><font size="5.5"><b>デフォルメ<br>
+      キャラクター</b></font><br>
+      <font size="3.5">使用ソフト:AdobeIlustlarorCS5</font></span> </div>
+    </a> </div>
+</div>
+<h2 id = "mosya">模写</h2>
+<a href="#tops">
+<div id = "top">▲</div>
+</a>
+<div class="img_wrap"> <img src="img/mosya_0-01.png">
+  <div class="mask"> <a href="img/mosya_sample6-04.png" data-lightbox="mosya"data-title="模写(7/7)" > <a href="img/mosya_sample5-04.png" data-lightbox="mosya"data-title="模写(7/6)"> <a href="img/mosya_sample4-04.png" data-lightbox="mosya"data-title="模写(7/5)"> <a href="img/mosya_sample2-04.png" data-lightbox="mosya"data-title="模写(7/4)"> <a href="img/mosya_sample3-04.png" data-lightbox="mosya"data-title="模写(7/3)"> <a href="img/mosya_sample1-04.png" data-lightbox="mosya"data-title="模写(7/2)"> <a href="img/mosya_sample-04.png" data-lightbox="mosya"data-title="模写(7/1)">
+    <div class="caption"> <span class="text-style"><font size="5.5"><b>模写1</b></font><br>
+      <font size="3.5">テガミバチ第4巻より</font></span> </div>
+    </a> </div>
+</div>
+<div class="img_wrap"> <img src="img/mosya_1-01.png">
+  <div class="mask"> <a href="img/mosya_sample7-07.png" data-lightbox="mosya2"data-title="模写2">
+    <div class="caption"> <span class="text-style"><font size="5.5"><b>模写2</b></font><br>
+      <font size="3.5">風景写真より</font></span> </div>
+    </a> </div>
+</div>
+<h2 id="line">Lineスタンプ制作<span class="coment">使用ソフト:ClipStudio/AdobeFireworks</span></h2>
+<a href="#apuri">
+<div id = "top">▲</div>
+</a>
+<div class="img_wrap"> <img src="img/line_1-01.png"> <a href="https://store.line.me/stickershop/product/1202293/ja" target="_blank">
+  <div class="mask" title="クリックでLINESTOREへ"/>
+  <div class="caption"> <span class="text-style"><font size="5.5"><b>LINEスタンプ1</b></font><br>
+    <font size="3.5">使用ソフト:ClipStudio</font></span> </div>
+  </a> </div>
+</div>
+<div class="img_wrap"> <img src="img/line_0-01.png"> <a href="https://store.line.me/stickershop/product/1187590/ja?from=sticker" target="_blank">
+  <div class="mask" title="クリックでLINESTOREへ"/>
+  <div class="caption"> <span class="text-style"><font size="5.5"><b>LINEスタンプ2</b></font><br>
+    <font size="3.5">使用ソフト:AdobeFireworks</font></span> </div>
+  </a> </div>
+</div>
+</div>
+<p class="title"><span class="mg-right"> Atsumi`s Portfolio</span>
+<div id="copyright"><span class="mg-right"> (c) 2020 atsumi</span></div>
+</p>
+</div>
+</body>
+</html>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js" type="text/javascript"></script>
