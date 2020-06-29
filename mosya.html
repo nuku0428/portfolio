@@ -1,0 +1,333 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=shift_jis" />
+<title>Untitled Document</title>
+<style type="text/css">
+<!--
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP');
+font-family: 'Noto Serif JP', sans-serif;
+  
+
+
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono');
+
+
+/*Jess FoamiによるPixabayからの画像 
+5311692によるPixabayからの画像 */
+ 
+div#all {
+	padding-top: 0;
+	width: 100％;
+	margin: 0 auto;
+
+	 
+} 
+#copyright {
+	font-family: 'Ubuntu Mono', monospace;
+	background-color: rgba(200,200,200,0.4);
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	text-align: right;
+	padding-top: 12px;
+	
+}
+
+body {
+	/* 画像ファイルの指定 */
+	background-image: none;
+	/* 画像を常に天地左右の中央に配置 */
+	background-position: center center;
+	/* 画像をタイル状に繰り返し表示しない */
+	background-repeat: no-repeat;
+	/* コンテンツの高さが画像の高さより大きい時、動かないように固定 */
+	background-attachment: fixed;
+	/* 表示するコンテナの大きさに基づいて、背景画像を調整 */
+	/*background-size: cover;
+	/* 背景画像が読み込まれる前に表示される背景のカラー */
+	background-color: #e6e6faa;
+	margin-top: 0px;
+}
+
+#main {
+	margin: 0px;
+	height:320px;
+	margin: 0px;
+	padding: 0px;
+	clear:both;
+	
+}
+
+#dropmenu {
+	list-style-type: none;
+	margin:0 0 0 0;
+	height: 83px;
+	display: flex;
+	float: left;
+	width:250px;
+	background-color: rgba(250,250,250,0.5);
+	 position: fixed;
+    top: 0;
+    left:0;
+	margin-bottom: 50px;
+	z-index:1;
+	
+
+	
+}
+
+.animsition {
+	width:calc(100vh -30);
+	float: none;
+	
+}
+#dropmenu li {
+
+font-family: 'Ubuntu Mono', monospace;
+	position: relative;
+	width: 200px;
+	height: 85px;
+	
+	margin: 0 auto 0 0;
+	padding: 0px;
+	text-align: center;
+	padding: 0px;
+	float: none;
+ 
+ 
+	 
+}
+
+
+#dropmenu ul {
+	
+	font-family: 'Ubuntu Mono', monospace;
+	height: 83px;
+	padding-left: 0px;
+	
+	
+
+}
+
+#dropmenu li a {
+	display: block;
+	margin: 0;
+	padding: 15px 0px 20px 0px;
+	color: #000000;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 1;
+	text-decoration: none;
+}
+
+#dropmenu li ul {
+	list-style: none;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	margin: 0;
+	padding: 0;
+	
+}
+
+#dropmenu li:last-child ul {
+	width: 100%
+}
+
+#dropmenu li ul li {
+font-family: 'Ubuntu Mono', monospace;
+	overflow: hidden;
+	width: 200px;
+	height: 0;
+	color: #000000;
+	transition: .2s;
+
+}
+
+#dropmenu li ul li a {
+	padding: 13px 13px;
+	background-color: rgba(250,250,250,0.5);
+	text-align: right;
+	font-size: 12px;
+	font-weight: normal;
+	/*border-top-color: #666666;
+	border-bottom-color: #333333;*/
+}
+
+#dropmenu li:hover>a {
+	
+	color: #ffffff;
+	background-color: #94ECFE;	/*border-bottom-color: #333333;*/
+}
+
+}
+#dropmenu>li:hover>a {
+	border-radius: 3px 3px 0 0;
+	font-size: 9px;
+}
+
+#dropmenu li:hover ul li {
+	overflow: visible;
+	height: 35px;
+	border-top: 1px solid #ffffff;
+	border-bottom: 1px solid #ffffff;
+	border-top-color: #333333;
+	border-left-color: #FFFFFF;
+	border-bottom-color: #333333;
+}
+
+h1{
+	padding-left: 70px;
+	border-bottom-style: double;
+	padding-top: 80px;
+	clear:both;
+	font-family: 'Ubuntu Mono', monospace;
+}
+
+#dropmenu li:hover ul li:first-child {
+	border-top: 0;
+	margin-top:0;
+}
+
+#dropmenu li:hover ul li:last-child {
+	border-bottom: 0;
+}
+
+#dropmenu li:hover ul li:last-child a {
+	border-radius: 0 0 3px 3px;
+}
+
+
+
+a:link {
+	color: #666666;
+}
+
+a:visited {
+	color: #666666;
+}
+
+a:hover {
+	color: #333333;
+}
+
+a:active {
+	color: #666666;
+}
+
+
+.title {
+	position: fixed;
+	bottom: 0;
+	font-size:30px;
+	border-bottom-color: #000000;
+	border-bottom-width: thin;
+	border-bottom-style: dotted;
+	text-align:right;
+	margin-right: 10px;
+	width: 100%;
+	padding-right: 10px;
+	background-color: rgba(200,200,200,0.4);
+	left:0;
+	font-family: 'Ubuntu Mono', monospace;
+}
+
+ 
+
+
+
+
+
+
+html {
+	position: relative;
+	min-height: 100%;
+	scroll-behavior: smooth;
+	
+}
+
+h2{
+	padding-left: 100px;
+	border-bottom-style: ridge;
+	padding-top: 100x;
+	color: #666666;
+	clear:both;
+	font-family: 'Ubuntu Mono', monospace;
+}
+.mgr-10{
+    margin-right : 70px;
+}
+.hukurou{
+	text-align: right;
+	clear:both;
+	font-size:17px;
+	padding bottom:80px;
+	color:#000000;
+	
+	bottom: 0;
+}
+
+.resizseimage img{hight:100%;}
+
+
+</style>
+<script type="text/JavaScript">
+<!--
+
+
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+//-->
+</script>
+</head>
+<body>
+<div id="all"></div>
+<div class="animsition">
+  <ul id="dropmenu">
+   
+   <li><font size="35">版権イラスト</font></font></a>
+     
+  </ul>
+</div>
+<div id="main">
+<h1 id = "tops">漫画模写(テガミバチより)</h1>
+
+<table align = "center" width="700" border="0" cellspacing="50" cellpadding="10" >
+  <tr>
+    <td><img src="img/mosya_sample1-04.png" /></td>
+    <td><img src="img/mosya_sample2-04.png" /></td>
+  </tr>
+  <tr>
+    <td><img src="img/mosya_sample3-04.png" /></td>
+    <td><img src="img/mosya_sample4-04.png" /></td>
+  </tr>
+  <tr>
+    <td><img src="img/mosya_sample5-04.png" /></td>
+    <td><img src="img/mosya_sample6-04.png" /></td>
+  </tr>
+</table>
+
+
+
+<a href="#tops">
+<div id = "top">▲</div>
+</a>
+
+<br>
+<br>
+<br>
+<br>
+
+</div>
+
+<p class="title"><span class="mgr-10"> Atsumi`s Portfolio</span>
+<div id="copyright"><span class="mgr-10"> (c) 2020 atsumi</span></div>
+</p>
+</div>
+</html>
